@@ -5,6 +5,7 @@ import { getCars } from '@/lib/api';
 import CarCard from '@/components/CarCard';
 import Filters from '@/components/Filters';
 import Pagination from '@/components/Pagination';
+import { Car } from '@/lib/api';
 
 export default function HomePage() {
   const [cars, setCars] = useState<Car[]>([]);
